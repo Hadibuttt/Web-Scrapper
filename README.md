@@ -1,5 +1,15 @@
 # Website-Scrapper
-Scraps Website Title, Desciption, along all the Internal Links of the website and stores into database as per required.
+This web scrapper is developed in core php with a user friendly GUI. 
 
-In Order fot this Scrapper to Work You Must Have Xaamp installed in your computer with a database. 
-You can change the database connectivity settings in the Php and Database Connection file according to your needs.
+## Scraps
+- Website 
+- Title 
+- Desciption
+- Internal Links 
+
+## Requirments
+In Order for this scrapper to work you must have 
+
+1) Xaamp installed in your computer with a database. 
+2) Change the database connectivity settings in the Php and Database Connection file according to your needs.
+3) Import crawler.sql into your database.
