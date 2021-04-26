@@ -1,3 +1,4 @@
+// DB Connection
 <?php
 include("Php and Database Connection.php");
 ?>
