@@ -67,6 +67,8 @@ echo "<table style='border:1px solid black;'>
     </thead>
     <tbody>";
 
+    // Shows scrapped data on web view
+
     $sql="SELECT link,title,description,internal_link FROM webpage_details";
     $result=$conn->query($sql);
         if($result->num_rows>0)
