@@ -41,7 +41,8 @@ if($main_url=='NULL')
  // Gets Webpage Internal Links
  $doc = new DOMDocument; 
  @$doc->loadHTML($str); 
- 
+
+// Gets all internal links
  $items = $doc->getElementsByTagName('a'); 
  foreach($items as $value) 
  { 
